@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply text-gray-800;
+}
+
+/* Custom card styling */
+.card {
+  @apply bg-white rounded-lg shadow-md transition-transform duration-300 hover:scale-[1.02] cursor-pointer;
+}
+
+/* Custom button styling */
+.btn-primary {
+  @apply bg-indigo-600 text-white px-6 py-2 rounded-md hover:bg-indigo-700 transition-colors duration-300 cursor-pointer;
+}
